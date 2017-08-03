@@ -4,6 +4,7 @@ public class Room {
     private Carpet carpet;
     private Door door;
     private Fan fan;
+    private FanSwitch fanSwitch;
     private Lights lights;
     private LightSwitch lightSwitch;
     private RoomArea roomArea;

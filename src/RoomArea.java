@@ -13,6 +13,15 @@ public class RoomArea {
         return Width;
     }
 
+    public String getRoomArea(){
+        int height = getHeight();
+        int width = getWidth();
+        int depth = getDepth();
+        int area = ( height * width * depth);
+
+        return "Area of Room is: " + area;
+    }
+
     public int getHeight() {
         return height;
     }

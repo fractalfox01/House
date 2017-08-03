@@ -20,4 +20,12 @@ public class Dimensions {
     public int getDepth() {
         return depth;
     }
+
+    public String getArea(){
+        int widht = this.width;
+        int height = this.height;
+        int depth = this.depth;
+        int area = (widht * height * depth);
+        return "Area is " + area;
+    }
 }
