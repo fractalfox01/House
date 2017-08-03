@@ -12,7 +12,7 @@ public class Room {
         System.out.println("Null Room Created");
     }
 
-    public Room(String width, String height, String depth, Window window, Carpet carpet, Door door, Fan fan, Lights lights, LightSwitch lightSwitch, RoomArea roomArea) {
+    public Room(Window window, Carpet carpet, Door door, Fan fan, Lights lights, LightSwitch lightSwitch, RoomArea roomArea) {
 
         this.window = window;
         this.carpet = carpet;
