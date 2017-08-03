@@ -24,6 +24,10 @@ public class Room {
         this.roomArea = roomArea;
     }
 
+    public void TurnonLight(){
+
+    }
+
     public RoomArea getRoomArea() {
         return roomArea;
     }

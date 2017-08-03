@@ -15,11 +15,8 @@ public class Main{
 
         Room myRoom = new Room(myWindow,myCarpet,myDoor,myFan,myLight,ltSwitch,rmArea);
 
-        System.out.println(rmArea.getRoomArea());
-        System.out.println("Door " + myDoor.getDimension().getArea());
-        System.out.println("Door Shape is " + myDoor.getShape());
+        myRoom.TurnonLight();
 
-        System.out.println(myLight.getLtSwitch().isLtStatus());
 
     }
 }
