@@ -11,6 +11,10 @@ public class Door {
         return shape;
     }
 
+    public void openDoor(){
+
+    }
+
     public Dimensions getDimension() {
         return dimension;
     }
